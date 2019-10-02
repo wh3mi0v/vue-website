@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    template homepage
+    template homepage2
   </div>
 </template>
 
@@ -12,10 +12,10 @@ export default {
     return {};
   },
   methods: {
-    
+
   },
   created: function() {
-    
+
   }
 };
 </script>

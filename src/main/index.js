@@ -2,6 +2,7 @@ import index from './views/index'
 
 import permission from '../permission'
 import pkgTemplate from '../__template'
+import mocky from '../mocky'
 
 export default [{
     path: '/',
@@ -9,6 +10,7 @@ export default [{
     component: index,
     children: [
         ...pkgTemplate,
-        ...permission
+        ...permission,
+        ...mocky
     ]
 }]
